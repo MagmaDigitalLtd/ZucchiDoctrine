@@ -28,7 +28,7 @@ return array(
         'eventmanager' => array(
             'orm_default' => array(
                 'subscribers' => array(
-                    'Gedmo\Loggable\LoggableListener',
+                    // 'Gedmo\Loggable\LoggableListener',
                     'Gedmo\Sluggable\SluggableListener',
                     'Gedmo\SoftDeleteable\SoftDeleteableListener',
                     'Gedmo\Timestampable\TimestampableListener',
